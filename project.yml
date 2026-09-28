@@ -17,14 +17,12 @@ targets:
       - Models.swift
       - PatchStore.swift
       - ContentView.swift
-      - LaunchScreen.storyboard
       - Assets.xcassets
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.giahai.patch
         INFOPLIST_FILE: Info.plist
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        UILAUNCHSTORYBOARDNAME: LaunchScreen
         SWIFT_VERSION: "5.0"
     dependencies:
       - package: ZIPFoundation
